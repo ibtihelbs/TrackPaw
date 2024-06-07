@@ -11,7 +11,7 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 section:not(#hero) {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   align-items: center;
   justify-content: center;

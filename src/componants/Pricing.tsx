@@ -12,7 +12,7 @@ const Pricing = () => {
   return (
     <section id="pricing" className="py-12 bg-gray-100">
       <div className="container mx-auto px-6 text-center">
-        <H1 content=" Choose Your Plan" />
+        <H1 content=" Choose Your Plan" center={false} />
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {

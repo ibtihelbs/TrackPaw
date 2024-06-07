@@ -1,12 +1,12 @@
 const Header = () => {
   return (
-    <header className="bg-white shadow">
+    <header className="bg-body shadow">
       <div className=" px-6 py-3 flex justify-between items-center">
         <a href="/" className="text-lg font-semibold  text-gray-800">
           <img
             src="https://trackpaws.com/_next/image?url=%2Ftrackpaws.png&w=256&q=75"
             alt="pawtrack"
-            className="h-[50px]"
+            className="h-[30px]"
           />
         </a>
         <nav className="space-x-4">

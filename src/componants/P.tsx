@@ -1,5 +1,5 @@
 type paragraphProp = {
-  content: string;
+  content: React.ReactNode;
 };
 
 function P(prop: paragraphProp) {

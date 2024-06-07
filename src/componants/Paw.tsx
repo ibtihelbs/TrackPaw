@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
 import Benefits from "./Benefits";
@@ -7,6 +6,8 @@ import Features from "./Features";
 import Footer from "./Footer";
 import Pricing from "./Pricing";
 import Table from "./Table";
+import Contact from "./Contact";
+import Stat from "./Stat";
 
 const TrackPaws = () => {
   return (
@@ -25,6 +26,8 @@ const TrackPaws = () => {
       <Social />
       {/* Features Section */}
       <Features />
+      <Stat />
+      <Contact />
       {/* Footer */}
       <Footer />
     </div>

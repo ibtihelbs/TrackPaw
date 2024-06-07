@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <section id="features" className="py-12">
       <div className="container mx-auto px-6 text-center">
-        <H1 content="Empowering Pet Care with Technology" />
+        <H1 content="Empowering Pet Care with Technology" center={false} />
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-white rounded-lg shadow p-6">
             <div className=" text-3xl mb-4">🚀</div>
