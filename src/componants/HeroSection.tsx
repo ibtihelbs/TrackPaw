@@ -1,5 +1,5 @@
+import Cta from "./Cta";
 import H1 from "./H1";
-import H2 from "./H2";
 import P from "./P";
 
 const HeroSection = () => {
@@ -13,20 +13,37 @@ const HeroSection = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="text-center h-1/2 translate-y-1/4  ">
+      <div className="text-center h-1/2 translate-y-1/4">
         <H1 content="Never Lose Track" center={false} />
         <H1 content="of Your Pet Again" center={false} />
         <P content="Real-time GPS tracking and health monitoring for peace of mind." />
-
-        <button className="mt-6 text-xl shadow-md bg-accent  text-white py-2 px-4 rounded-full hover:bg-orange-700 transition duration-300">
-          Get Started
-        </button>
+        <Cta />
       </div>
-      <div className="flex justify-around py-6 w-full bg-accent text-white font-bold absolute bottom-0">
-        <H2 content="Easy-to-use tracking devices " />
-        <H2 content="Safe monitoring for your pets " />
-        <H2 content="Real-time location updates " />
-        <H2 content="Instant alerts " />
+      <div className="flex justify-around py-6 w-full bg-white font-bold absolute bottom-0">
+        <div className="flex items-center space-x-2">
+          <span role="img" aria-label="Tracking device">
+            📍
+          </span>
+          <h3>Easy-to-use tracking devices</h3>
+        </div>
+        <div className="flex items-center space-x-2">
+          <span role="img" aria-label="Monitoring for pets">
+            🛡️
+          </span>
+          <h3>Safe monitoring for your pets</h3>
+        </div>
+        <div className="flex items-center space-x-2">
+          <span role="img" aria-label="Location updates">
+            🗺️
+          </span>
+          <h3>Real-time location updates</h3>
+        </div>
+        <div className="flex items-center space-x-2">
+          <span role="img" aria-label="Instant alerts">
+            🔔
+          </span>
+          <h3>Instant alerts</h3>
+        </div>
       </div>
     </section>
   );
